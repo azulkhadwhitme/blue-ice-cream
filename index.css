@@ -19,7 +19,7 @@ header, nav, section, article, aside, footer {
 }
 
 .titulo {
-    
+    box-shadow: 7px 13px 37px #000;
     background-color: #184ea3;
     color: white;
     text-align: center;
