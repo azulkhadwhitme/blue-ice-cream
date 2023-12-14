@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
-*
-{
+* {
     font-family: 'Pangolin';
-}
-body {
-    
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url('fondo3.jpg');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('fondoazul.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    color: #333; 
 }
 
 header, nav, section, article, aside, footer {
@@ -19,34 +22,34 @@ header, nav, section, article, aside, footer {
 }
 
 .titulo {
-    
     background-color: #184ea3;
     color: white;
     text-align: center;
     padding: 20px;
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra */
 }
 
 nav {
-padding-left: 10%;
-   text-align: center;
-    width: 80%;
+    padding-left: 10%;
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 nav ul {
-border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 30px 30px;
     text-align: center;
     background-color: #184ea3;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Display the list items in a row */
-    justify-content: center; /* Center the items horizontally */
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra */
 }
 
 nav li {
-    margin-right: 20px; /* Adjust the spacing between menu items as needed */
+    margin-right: 20px;
 }
 
 nav a {
@@ -60,3 +63,45 @@ nav a {
 nav a:hover {
     background-color: #0a476b;
 }
+
+.recursos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.categoria {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #135c86;
+    border: 1px solid #0a476b;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #FFF;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.categoria img {
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.categoria:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.secundario {
+    width: 40%;
+    background-color: #0a476b;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 1.2em;
+    overflow: auto;
+}
+

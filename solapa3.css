@@ -5,10 +5,10 @@
     font-family: 'Pangolin';
 }
 body {
-    
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url('fondo3.jpg');
+    background-image: url('fondoazul2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -59,4 +59,50 @@ nav a {
 
 nav a:hover {
     background-color: #0a476b;
+}
+
+.recursos{
+    text-align: center;
+    
+}
+table {
+    margin: auto; 
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #184ea3;
+    color: white;
+}
+
+.total-row {
+    background-color: #0a476b;
+    color: white;
+}
+.informacion {
+    text-align: center;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informacion p {
+    font-size: 1.2em;
+    line-height: 1.6;
 }
