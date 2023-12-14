@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .articulos {
-    width: 70%;
+    width: 100%;
     margin-right: 20px;
 }
 
@@ -80,7 +80,8 @@ nav a:hover {
 }
 
 .secundario {
-    width: 30%;
+    width: 25%;
+    height:00%;
 }
 
 .secundario p {
@@ -90,91 +91,9 @@ nav a:hover {
     height: 600px;
     box-shadow: 7px 13px 37px #000;
     color: white;
-    font-size: 1.2em;
-    overflow: auto;
-}body {
-    font-family: 'Century Gothic', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('fondo3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+    font-size:1em;
+    overflow: auto;}
 
-header, nav, section, article, aside, footer {
-    display: block;
-}
-
-.titulo {
-    background-color: #184ea3;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-nav {
-    text-align: center;
-}
-
-nav ul {
-    background-color: #184ea3;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Display the list items in a row */
-    justify-content: center; /* Center the items horizontally */
-}
-
-nav li {
-    margin-right: 20px; /* Adjust the spacing between menu items as needed */
-}
-
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 20px;
-    color: white;
-    transition: background-color 0.3s;
-}
-
-nav a:hover {
-    background-color: #0a476b;
-}
-
-.contenido {
-    display: flex;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.articulos {
-    width: 70%;
-    margin-right: 20px;
-}
-
-.articulos img {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 15px;
-}
-
-.secundario {
-    width: 40%;
-    margin: 0%;
-}
-
-.secundario p {
-    background-color: #0a476b;
-    border-radius: 15px;
-    padding: 20px;
-    height: 600px;
-    box-shadow: 7px 13px 37px #000;
-    color: white;
-    font-size: 1.2em;
-    overflow: auto;
-}/* ... (tus estilos existentes) ... */
 .card {
     width:70%;
     background-color: #135c86;
@@ -222,5 +141,9 @@ nav a:hover {
 }
 .contenido,
 .secundario {
-    margin: 0; /* Elimina el margen predeterminado */
+    margin: auto;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
